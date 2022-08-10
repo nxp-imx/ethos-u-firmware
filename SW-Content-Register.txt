@@ -1,4 +1,13 @@
-Release Name: Ethos-U firmware
+NXP Software Content Register
+
+Package:                     ethos-u-firmware.git
+Outgoing License:            Apache-2.0 
+License File:                LICENSE-APACHE-2.0.txt
+Type of Content:             source
+Description and comments:    ethos-u-firmware is the binary NPU driver running on cortex-m33 core of NXP iMX93 platform
+Release Location:            https://github.com/nxpmicro/ethos-u-firmware
+Origin:                      NXP (BSD-3-Clause)
+                             ARM Limited ethos-u-linux-driver-stack v22.02 (Apache-2.0) - https://git.mlplatform.org/ml/ethos-u/ethos-u-core-software.git
 
 This binary firmware package is built with below SW components.
 ===============================================================
