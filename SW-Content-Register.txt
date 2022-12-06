@@ -1,24 +1,33 @@
-Release Name: Ethos-U firmware
+NXP Software Content Register
+
+Package:                     ethos-u-firmware.git
+Outgoing License:            Apache-2.0 
+License File:                LICENSE-APACHE-2.0.txt
+Type of Content:             source
+Description and comments:    ethos-u-firmware is the binary NPU driver running on cortex-m33 core of NXP iMX93 platform
+Release Location:            https://github.com/nxp-imx/ethos-u-firmware
+Origin:                      NXP (BSD-3-Clause)
+                             ARM Limited ethos-u-linux-driver-stack v22.08 (Apache-2.0) - https://git.mlplatform.org/ml/ethos-u/ethos-u-core-software.git
 
 This binary firmware package is built with below SW components.
 ===============================================================
 
-Ethos-U Core Driver & Other Software        Version: 22.02
+Ethos-U Core Driver & Other Software        Version: 22.08
                                             Author: ARM
                                             License: Apache-2.0
-                                            Original: ARM ethos-u-core-software v22.02 (Apache-2.0) - https://git.mlplatform.org/ml/ethos-u/ethos-u-core-software.git
+                                            Original: ARM ethos-u-core-software v22.08 (Apache-2.0) - https://git.mlplatform.org/ml/ethos-u/ethos-u-core-software.git
                                             Format: source code
                                             Location: applications/*, cmake/*, core_driver/*, drivers/*, lib/*, rtos/*
 
-Ethos-U core interface header file          Version: 22.02
+Ethos-U core interface header file          Version: 22.08
                                             Author: ARM
                                             License: GPL-2.0
                                             Description and comments: Ethos-U core interface header file, Ethos-U core software will include this header file to handle messages with Linux.
-                                            Original: ARM ethos-u-linux-driver-stack v22.02 (Apache-2.0) - https://git.mlplatform.org/ml/ethos-u/ethos-u-linux-driver-stack.git/tree/kernel/ethosu_core_interface.h
+                                            Original: ARM ethos-u-linux-driver-stack v22.08 (Apache-2.0) - https://git.mlplatform.org/ml/ethos-u/ethos-u-linux-driver-stack.git/tree/kernel/ethosu_core_interface.h
                                             Format: source code
                                             Location: include/*
 
-Ethos-U application example                 Version: 22.02
+Ethos-U application example                 Version: 22.08
                                             Author: NXP
                                             License: BSD-3-Clause
 											Description and comments: the Cortex-M application building with Ethos-U Core driver and NXP MCU SDK board level drivers.
